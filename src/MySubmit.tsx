@@ -1,3 +1,5 @@
 import { Button } from '@fluentui/react-components';
 
-export default () => <Button appearance="primary">Get started</Button>;
+function MySubmit() { return (<><Button appearance="primary">Get started</Button></>) }
+
+export default MySubmit;
