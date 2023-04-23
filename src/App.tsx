@@ -29,7 +29,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <MySubmit buttonText='Hello, world!' buttonShape='circular'></MySubmit>
+      <MySubmit buttonText='add ten' buttonShape='circular' onClickEvent={ () => alert('hello') }></MySubmit>
     </>
   )
 }
